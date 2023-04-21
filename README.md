@@ -28,20 +28,16 @@ Switzerland: Springer, 2015, pp. 234–241.（UNet）
 ####  (2)不同医学场景下的图像分割
 - Fan D P, Zhou T, Ji G P, et al. Inf-net: Automatic covid-19 lung infection segmentation from ct images[J]. IEEE Transactions on Medical Imaging, 2020, 39(8): 2626-2637.(COVID19感染区域分割)
 - Fan D P, Ji G P, Zhou T, et al. Pranet: Parallel reverse attention network for polyp segmentation[C]//Medical Image Computing and Computer Assisted Intervention–MICCAI 2020: 23rd International Conference, Lima, Peru, October 4–8, 2020, Proceedings, Part VI 23. Springer International Publishing, 2020: 263-273.（息肉分割）
+- Oktay O, Schlemper J, Folgoc L L, et al. Attention u-net: Learning where to look for the pancreas[J]. arXiv preprint arXiv:1804.03999, 2018.（注意力UNet：学习在哪里寻找胰腺）
+- Havaei M, Davy A, Warde-Farley D, et al. Brain tumor segmentation with deep neural networks[J]. Medical image analysis, 2017, 35: 18-31.（脑肿瘤分割）
 ### 2.不确定性估计
-#### （1）综述
-- Gawlikowski, J., Tassi, C. R. N., Ali, M., Lee, J., Humt, M., Feng, J., ... & Zhu, X. X. (2021). A survey of uncertainty in deep neural networks. _arXiv preprint arXiv:2107.03342_.
-- Abdar, M., Pourpanah, F., Hussain, S., Rezazadegan, D., Liu, L., Ghavamzadeh, M., ... & Nahavandi, S. (2021). A review of uncertainty quantification in deep learning: Techniques, applications and challenges. _Information Fusion_, _76_, 243-297.
-- Uncertainty in Deep Learning（Gal博士论文）
-- He, W., & Jiang, Z. (2023). A Survey on Uncertainty Quantification Methods for Deep Neural Networks: An Uncertainty Source Perspective. _arXiv preprint arXiv:2302.13425_.
-- Hüllermeier, E., & Waegeman, W. (2021). Aleatoric and epistemic uncertainty in machine learning: An introduction to concepts and methods. _Machine Learning_, _110_, 457-506.（数据和模型不确定性）
-#### （2）贝叶斯方法：
+#### （1）贝叶斯方法：
 - Gal, Y., & Ghahramani, Z. (2016, June). Dropout as a bayesian approximation: Representing model uncertainty in deep learning. In _international conference on machine learning_ (pp. 1050-1059). PMLR.（将Dropout看做贝叶斯近似的经典论文）
 - **Kendall, A., & Gal, Y. (2017). What uncertainties do we need in bayesian deep learning for computer vision?. _Advances in neural information processing systems_, _30_.（不确定性估计必读论文，将不确定性分为数据不确定性以及模型不确定性，并介绍了在分类和回归中不确定性估计的建模方法）**
 - Louizos, C., & Welling, M. (2017, July). Multiplicative normalizing flows for variational bayesian neural networks. In _International Conference on Machine Learning_ (pp. 2218-2227). PMLR.（变分贝叶斯神经网络，EDL论文中的对比方法）
-#### （3）集成方法
+#### （2）集成方法：
 - Lakshminarayanan, B., Pritzel, A., & Blundell, C. (2017). Simple and scalable predictive uncertainty estimation using deep ensembles. _Advances in neural information processing systems_, _30_.（集成方法的开山之作）
-#### （4）证据深度学习
+#### （3）证据深度学习：
 - **Sensoy, M., Kaplan, L., & Kandemir, M. (2018). Evidential deep learning to quantify classification uncertainty. _Advances in neural information processing systems_, _31_.（证据分类）**
 - Sensoy, M., Kaplan, L., Cerutti, F., & Saleki, M. (2020, April). Uncertainty-aware deep classifiers using generative models. In _Proceedings of the AAAI Conference on Artificial Intelligence_ (Vol. 34, No. 04, pp. 5620-5627).（EDL作者的另一篇论文）
 - Malinin, A., & Gales, M. (2018). Predictive uncertainty estimation via prior networks. _Advances in neural information processing systems_, _31_.（使用狄利克雷分布建模不确定性的另一种方法）
