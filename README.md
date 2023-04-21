@@ -2,18 +2,18 @@
 该站点整理了“医学图像分割、不确定性相关”方向的论文、代码、博客等学习资源
 
 # 目录
-- [医学图像分割]()  
-   - [基础backbone]()   
-   - [不同医学场景下的图像分割]()
-- [不确定性估计]()
-   - [贝叶斯方法]()
-   - [集成方法]()
-   - [证据深度学习方法]()
-- [证据深度学习在医学图像分割中的应用]()
-- [代码和数据集]()
-- [博客]()
-   - [医学图像分割]()
-   - [证据深度学习]()
+- [医学图像分割](#1医学图像分割)  
+   - [基础backbone](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/backbone)   
+   - [不同医学场景下的图像分割](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/Medical_Image_Segmentation)
+- [不确定性估计](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/Uncertainty_Estimation)
+   - [贝叶斯方法](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/Uncertainty_Estimation/Bayesian)
+   - [集成方法](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/Uncertainty_Estimation/Ensemble)
+   - [证据深度学习方法](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/Uncertainty_Estimation/Evidential%20Deep%20learning)
+- [证据深度学习在医学图像分割中的应用](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/Uncertainty_Estimation/EDL%20%E7%94%A8%E4%BA%8E%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2)
+- [代码和数据集](#二代码和数据集)
+- [博客](#三博客)
+   - [医学图像分割](#1医学图像分割)
+   - [证据深度学习](#2证据深度学习)
 
 # 一、论文
 ### 1.医学图像分割
