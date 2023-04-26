@@ -55,7 +55,8 @@ Switzerland: Springer, 2015, pp. 234–241.（UNet）
 (6) [PraNet](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/code/PraNet-master)  
 (7) [UNet++](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/code/UNetPLusPlus-master)  
 (8) [TBraTS-mian](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/code/TBraTS-main)  
-(9) [UMIS-main](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/code/UMIS-main)
+(9) [UMIS-main](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/code/UMIS-main)   
+(10)[classification-uncertainty](https://github.com/wangruohan1/Medical-Image-Segmentation/tree/master/code/pytorch-classification-uncertainty-master)
 
 #### 2.数据集
 相关论文的数据集可以在其代码仓库中找到
